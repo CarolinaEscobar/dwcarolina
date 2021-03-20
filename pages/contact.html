@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width" , initial-scale="1.0">
+	<meta name="description" content="Carolina Escobar is an illustrator, journalist and web designer inspired by real diversity in life">
+	<meta name="keywords" content="Carolina Escobar, Contact Illustrator, Female illustrator, Ilustradora, Ilustradora argentina, Carolina Escobar contact, Diseñadora digital argentina, Carolina Escobar illustrator, Carolina Escobar ilustradora, periodista Escobar, Editorial illustration, Buenos Aires illustrator">
+	<title>Contact</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/c715b97491.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://use.typekit.net/dgf0jju.css">
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+
+
+
+<body>
+
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top" style="background-color: #fff !important;">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="../index.html"><img src="../imagenes/logo.jpg"></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="work.html">Work</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="shop.html">Shop</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- Foto de ilustración a la izquierda-->
+
+	<div id="slides" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+			<li data-bs-target="#slides" data-bs-slide-to="0" class="active"></li>
+			<li data-bs-target="#slides" data-bs-slide-to="1"></li>
+			<li data-bs-target="#slides" data-bs-slide-to="2"></li>
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="../imagenes/chechedelis.jpg">
+				<div class="carousel-caption">
+					<h1 class="display-2">Get in touch</h1>
+					<h2>from my studio to your place</h2>
+				</div> 
+			</div>
+			<div class="carousel-item">
+				<img src="../imagenes/balcondesuperi.jpg">
+			</div>
+			<div class="carousel-item">
+				<img src="../imagenes/alavez.jpg">
+			</div>
+			</div>
+	</div>
+
+	<main>
+		
+			<main class="mainPaboutRight" style="font-size: 30px; color: #c09a41;">Contact</main>
+
+			<p class="mainPaboutRight"> For com­mis­sions, busi­ness in­quiries or com­ments please send me an <a href="mailto:escobarcarolinarocio@hotmail.com" style="color:#c09a41; text-decoration: none;">e-mail</a> or complete the form bellow
+			<br>
+			</br>
+			Para pedidos, trabajos o comentarios, por favor, <a href="mailto:escobarcarolinarocio@hotmail.com" style="color:#c09a41; text-decoration: none;">contácteme</a> o complete el formulario siguiente
+			</p>
+			
+	</main>
+
+
+	<form name="formContacto" method="post" action="process.php">
+
+		<label for="name">Name:</label>
+		<input name="name" placeholder="I am" type="required" />
+
+		<br>
+		</br>
+			
+		<label for="mail">E-mail:</label>
+		<input name="E-mail" placeholder="hi@example.com" type="required" />
+
+		<br>
+		</br>
+
+		<label for="subject">Subject:</label>
+		<input name="subject" placeholder="Business in­quiries" type="required" />
+
+		<br>
+		</br>
+		
+		<div class="commentFormat">
+		<label>Comment:</label>
+			<textarea placeholder="Hello, Carolina! I am writing to you because..." name="comment"></textarea>
+		</div>
+
+		<br/>
+		<br>
+
+		<br>
+		</br>
+		
+		<div class="pleaseSubcribeFormat"> 
+			<h1>
+				* | Please, complete all the information
+			</h1>
+		</div>
+
+		<br>
+		<br/>
+
+		<div> | Suscribe to Carolina's newsletter</div>
+
+		<input type="checkbox" name="accept" value="1"/>
+
+		<br/>
+		<br/>
+
+		<input class="botonSubmit" type="submit" value="Submit/Enviar"/>
+		
+	</form> 
+
+
+	<footer>
+		<p class="footerText"> Thanks for passing by! </p>
+
+			<div class= "social-bar"> <!--PONER IMAGEN ICON DE CADA RED "IMG"-->	
+				<a href="https://www.instagram.com/carolinaescobarok" class="fab fa-instagram" target="_blank"></a>
+				<a href="https://www.behance.net/carolinaescobar"  class="fab fa-behance" target="_blank"></a>
+				<a href="https://www.linkedin.com/in/carolina-escobar-3025b0145/" class="fab fa-linkedin-in" target="_blank"></a>
+				<a href="mailto:escobarcarolinarocio@hotmail.com" class="far fa-envelope"></a>
+			</div>
+
+		<p class="footerText"> Web designed by Carolina Escobar </p>
+		<p class="footerTextMin"> Copyright © 2021 - All right reserved </p>
+	</footer>
+
+
+
+	<!--Boostrap-->
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

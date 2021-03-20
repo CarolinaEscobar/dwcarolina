@@ -1,0 +1,296 @@
+//Importaciones
+
+// elementos base - repiten - orden de aparicion 
+@import "header";
+@import "navBar";
+@import "galeria";
+@import "services";
+@import "footer";
+
+// Variable
+
+$fontMackinac:"p22-mackinac-pro", serif;
+$colorAzul: #2b4e5e;
+$colorCeleste: #a6daf8;
+$colorRosa: #f5d2be;
+$colorMarron: #c09a41;
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; }
+
+body {
+position: relative;
+background-color: #fff;
+background-size: 100%; }
+
+li a {
+text-decoration: none; }
+  
+  
+.formatH1IndexSup {
+/*INDEX, WELCOME*/
+font-family: $fontMackinac;
+font-style: normal;
+font-weight: 400;
+text-align: center;
+color: $colorAzul;
+font-size: 45px;
+line-height: 1.2;
+margin-top: 100px;
+margin-bottom: 30px; }
+
+.formatH2IndexMed {
+/*INDEX, I am an illustrator .. Buenos Aires */
+font-family: $fontMackinac;
+font-style: normal;
+font-weight: 400;
+text-align: center;
+color: $colorAzul;
+font-size: 40px;
+line-height: 1.2;
+padding: 0px; }
+  
+.formatMainIndex {
+/* INDEX, My favorites for you"- ¡¡¡¡¡IMPORTANTE!!!!: Ver como centrar los LI redes*/
+font-family: $fontMackinac;
+font-style: normal;
+font-weight: 400;
+text-align: center;
+padding: 0px;
+margin-bottom: 15px;
+color: $colorCeleste;
+font-size: 30px;
+line-height: 1.2; }
+  
+  
+  /*
+  footer{
+      font-family: "p22-mackinac-pro", serif;
+      font-style: normal;
+      font-weight: 400;
+      text-align: center;
+      padding: 0px;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      color:rgb(166, 218, 248);
+      font-size: 20px;
+      line-height: 1.2;  
+      background: rgb(212,163,48);
+      background: radial-gradient(circle, rgba(212,163,48,1) 9%, rgba(245,210,190,1) 100%);
+      transition: 2s;
+  }*/
+  /* ABOUT + INDEX Thanks for passing by  */
+.fontMedium {
+font-family: $fontMackinac;
+font-style: normal;
+font-weight: 400;
+color: $colorAzul;
+font-size: 18px;
+text-align: center;
+line-height: 1.2; }
+  
+main p {
+/* WORK, Find beauty in simple things*/
+font-family: $fontMackinac;
+font-style: normal;
+font-weight: 400;
+text-align: center;
+color: $colorCeleste;
+font-size: 40px;
+line-height: 1.2;
+padding: 90px; }
+  
+  /* SHOP . INSERTAR LINK DE MERCADOLIBRE EN HTML*/
+main h1 {
+    font-family: $fontMackinac;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: $colorAzul;
+    font-size: 25px;
+    line-height: 1.2;
+    padding: 90px; }
+
+//borrar dsps de Desafio BEM, DESACTUALIZADO , SHOP
+.shop__saludo {
+    font-family: $fontMackinac;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: $colorMarron;
+    font-size: 25px;
+    line-height: 1.2;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.lista__shop{
+    font-family: $fontMackinac;
+    font-style: normal;
+    font-weight: 600;
+    color: $colorMarron;
+    text-align: center;
+    padding: 90px;
+    list-style: none;
+}
+.lista__shop--none{
+    text-decoration: none;
+}
+
+.info__blabla{
+    font-family: $fontMackinac;
+    font-style: normal;
+    font-weight: 600;
+    color: $colorMarron;
+    padding: 90px;
+}
+
+.hello__info{
+    font-family: $fontMackinac;
+    font-style: normal;
+    font-weight: 600;
+    color: $colorMarron;
+    padding: 90px;
+}
+
+  /* ABOUT - FORMATO DE IMAGEN PERSONAL*/
+[grid-gutter="4"] {
+margin: -1rem; }
+
+[grid-pad="2"] {
+padding: 1rem; }
+
+[grid-row] {
+align-items: flex-start;
+box-sizing: border-box;
+display: flex;
+flex-wrap: wrap; }
+  
+.imgcaro {
+width: 20%;
+float: left;
+margin-top: 100px;
+margin-left: 80px;
+margin-right: 15px; }
+
+.mainPaboutRight {
+font-family: $fontMackinac;
+font-style: normal;
+font-weight: 400;
+color: $colorAzul;
+font-size: 20px;
+line-height: 1.2;
+padding: 20px;
+text-align: center; }
+
+.musicFormat {
+display: inline-block;
+margin-top: 25px;
+margin-bottom: 20px;
+margin-right: 100px;
+margin-left: 210px; }
+
+/* CONTACT - "For comission, Para pedidos" */
+.mainPcontact {
+font-family: $fontMackinac;
+font-style: normal;
+font-weight: 400;
+color: $colorAzul;
+font-size: 20px;
+line-height: 1.2;
+text-align: center; }
+  
+form {
+        width: 600px;
+        padding: 16px;
+        border-radius: 10px;
+        margin: auto;
+        background-color: $colorRosa;
+        label {
+                font-family: $fontMackinac;
+                font-style: normal;
+                font-weight: 400;
+                color: $colorAzul;
+                font-size: 18px;
+                width: 72px;
+                font-weight: bold;
+                display: inline-block;
+                box-sizing: border-box; 
+        }
+}
+  
+option {
+    font-family: $fontMackinac;
+    font-style: normal;
+    font-weight: 400;
+    color: $colorAzul;
+    font-size: 12px;
+    width: 72px;
+    font-weight: bold;
+    display: inline-block;
+    box-sizing: border-box; }
+  
+form div {
+    font-family: $fontMackinac;
+    font-style: normal;
+    font-weight: 400;
+    color: $colorAzul;
+    font-size: 12px;
+    width: 72px;
+    font-weight: bold;
+    display: inline-block;
+    box-sizing: border-box; }
+  
+form input {
+    font-family: $fontMackinac;
+    font-style: normal;
+    font-weight: 400;
+    color: $colorAzul;
+    font-size: 12px;
+    width: 72px;
+    font-weight: bold;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 30px;
+    width: 300px; }
+  
+form textarea {
+font-family: $fontMackinac;
+font-style: normal;
+font-weight: 400;
+color: $colorAzul;
+font-size: 12px;
+font-weight: bold;
+display: inline-block;
+box-sizing: border-box;
+width: 400px;
+height: 100px;
+margin-left: 0px;
+margin-top: 20px; }
+  
+.commentFormat {
+margin-top: 0px; }
+  
+.botonSubmit {
+            background-color: whitesmoke;
+            color: $colorAzul;
+            .botonSubmit:hover {
+                                background-color: $colorAzul;
+                                color: whitesmoke; 
+            }
+}
+  
+div h1 {
+    font-family: "p22-mackinac-pro", serif;
+    font-style: normal;
+    color: $colorAzul;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    width: 300px;
+    text-align: left; 
+}
+
+

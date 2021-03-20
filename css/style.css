@@ -1,0 +1,725 @@
+@charset "UTF-8";
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center; 
+}
+
+.logo {
+  width: 15rem;
+  margin-top: 20px; }
+.navbar {
+  padding: .8rem;
+  font-family: "p22-mackinac-pro", serif;}
+.navbar-nav li{
+  padding-right: 25px;}
+.nav-link{
+  font-size: 2em !important;
+  color: #2b4e5e !important;}
+.nav-item a:hover{
+  color: #c09a41 !important;}
+.navbar-toggler{
+  background: #a6daf8;}
+
+
+  /*
+#menuGeneral ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  #menuGeneral ul .enlace1 {
+    display: block;
+    text-decoration: none;
+    font-family: "p22-mackinac-pro",serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    color: #2b4e5e;
+    padding: 10px 20px; }
+    #menuGeneral ul .enlace1 .enlace1:hover {
+      color: #a6daf8; }
+
+#menuGeneral ul li {
+  position: relative;
+  float: left;
+  margin: 5px;
+  padding: 0;
+  width: 120px;
+  text-align: center; }
+
+#menuGeneral ul ul {
+  display: none;
+  position: absolute; }
+  #menuGeneral ul ul li {
+    margin: 0;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center; }
+    #menuGeneral ul ul li .enlace2 {
+      font-family: "p22-mackinac-pro",serif;
+      color: #2b4e5e;
+      font-size: 1.2rem;
+      text-decoration: none; }
+
+#menuGeneral ul ul .enlace2:hover {
+  color: #a6daf8; }
+
+#menuGeneral ul li:hover > ul {
+  display: block; }
+
+*/
+
+img{
+	max-width: 100%;
+  max-height: 100%;
+}
+.gallery{
+	padding: 70px 0;
+}
+.gallery img{
+	background-color: #ffffff;
+	padding: 15px;
+	width: 100%;
+  height: 100%;
+	box-shadow: 0 0 10px #a6daf8;
+	cursor: pointer;
+}
+.col img:hover {
+  background-color: #a6daf8;
+}
+
+/* INDEX - FORMATO DE IMAGENES NO RESPONSIVE
+#galeria .col-lg-4 {
+  padding: 20px;
+  padding-right: 50px;
+  padding-left: 50px; }
+
+#galeria .imgilus {
+  width: 100%; }
+#galeria .imgilus #galeria .imgilus:hover {
+  background: rgba 245, 210, 190, 0.6;
+  border: 10px solid #fff; }
+
+.col-lg-4 {
+  position: relative;
+  width: 100%; }
+
+.imgilus {
+  display: block;
+  width: 100%; }
+
+.imgOverlay {
+  position: absolute;
+  top: 3.1%;
+  left: 8.5%;
+  right: 30%;
+  bottom: 50%;
+  width: 82.8%;
+  height: 93.5%;
+  background: rgba 245, 210, 190, 0.9;
+  color: #fff;
+  font-family: "p22-mackinac-pro", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0; }
+  .imgOverlay .imgOverlay:hover {
+    opacity: 1; }
+
+.imgTitle {
+  font-size: 2em;
+  margin-top: 0.25em; }
+
+.imgDescrip {
+  font-size: 1.5em;
+  margin-top: 0.25em; }
+*/
+
+/* SERVICES - 3 SERVICIOS CON SUS ICONOS E INFO */
+.services {
+  margin: 90px auto;
+  text-align: center; }
+
+.servicesP {
+  font-family: "p22-mackinac-pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #2b4e5e;
+  font-size: 20px;
+  margin: 20px; }
+
+H3:after {
+  content: '';
+  background: #a6daf8;
+  display: block;
+  width: 300px;
+  height: 5px;
+  margin: 10px auto; }
+
+.servicesH {
+  font-family: "p22-mackinac-pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #2b4e5e;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px; }
+
+.icon {
+  font-size: 3px;
+  margin: 30px auto;
+  padding: 20px;
+  width: 110px;
+  border: 3px solid #a6daf8;
+  border-radius: 110%; }
+
+.servicesRow {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-left: 160px;
+  margin-bottom: 65px; }
+
+.icon {
+  font-size: 3px;
+  margin: 20px auto;
+  padding: 20px;
+  width: 110px;
+  border: 3px solid #a6daf8;
+  border-radius: 110%; }
+.icon .icon:hover {
+  background-color: #a6daf8;
+  color: #fff; }
+
+/* SERVICES - WEB DESIGN ICON */
+.fa-desktop {
+  color: #f5d2be;
+  font-size: 55px; }
+
+.fa-pencil-alt {
+  color: #f5d2be;
+  font-size: 55px; }
+
+.fa-book-open {
+  color: #f5d2be;
+  font-size: 55px; }
+
+.col-md-3:hover {
+  display: flex;
+  box-shadow: 10px 10px 10px -10px #2b4e5e;
+  cursor: pointer; }
+
+/* FOOTER - TEXTO Y REDES CON LINKS */
+.footerText {
+  display: flex;
+  justify-content: center;
+  font-family: "p22-mackinac-pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  padding: 0px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #2b4e5e;
+  font-size: 20px;
+  line-height: 1.2; }
+
+.footerTextMin {
+  display: flex;
+  justify-content: center;
+  font-family: "p22-mackinac-pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  padding: 0px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #2b4e5e;
+  font-size: 16px;
+  line-height: 1.2; }
+
+.social-bar {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  bottom: 0;
+  top: 90%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  z-index: 100;
+  text-decoration: none;
+  padding: .9rem;
+  transition: all .5s; }
+
+/*.icon {
+    color: white;
+    text-decoration: none;
+    padding: .9rem;
+    transition: all .5s;
+}*/
+.fab {
+  color: white;
+  text-decoration: none;
+  padding: .9rem;
+  transition: all .5s; }
+
+.fab:hover {
+  padding-top: 3rem;
+  border-radius: 2rem 2rem 2rem 2rem;
+  box-shadow: 0 0 0.8rem 0 0 0 0.42; }
+
+.fab:first-child {
+  border-radius: 2rem 0 0 0; }
+
+.far {
+  color: white;
+  text-decoration: none;
+  padding: .9rem;
+  transition: all .5s; }
+
+.far:hover {
+  padding-top: 3rem;
+  border-radius: 2rem 2rem 2rem 2rem;
+  box-shadow: 0 0 0.8rem 0 0 0 0.42; }
+
+.far:last-child {
+  border-radius: 0 2rem 0 0; }
+
+.fa-instagram {
+  background: #f5d2be;
+  transition: all .5s;
+  font-size: 27px; }
+
+.fa-behance {
+  background: #a6daf8;
+  transition: all .5s;
+  font-size: 25px; }
+
+.fa-linkedin-in {
+  background: #2d5e41;
+  transition: all .5s;
+  font-size: 25px; }
+
+.fa-envelope {
+  background: #d4a330;
+  transition: all .5s;
+  font-size: 25px; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+body {
+  position: relative;
+  background-color: #fff;
+  background-size: 100%; }
+
+li a {
+  text-decoration: none; }
+
+.formatH1IndexSup {
+  /*INDEX, WELCOME*/
+  font-family: "p22-mackinac-pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: #2b4e5e;
+  font-size: 45px;
+  line-height: 1.2;
+  margin-top: 100px;
+  margin-bottom: 30px; }
+
+.formatH2IndexMed {
+  /*INDEX, I am an illustrator .. Buenos Aires */
+  font-family: "p22-mackinac-pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: #2b4e5e;
+  font-size: 40px;
+  line-height: 1.2;
+  padding: 0px; }
+
+.formatMainIndex {
+  /* INDEX, My favorites for you"- ¡¡¡¡¡IMPORTANTE!!!!: Ver como centrar los LI redes*/
+  font-family: "p22-mackinac-pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  padding: 0px;
+  margin-bottom: 15px;
+  color: #a6daf8;
+  font-size: 30px;
+  line-height: 1.2; }
+
+/*
+  footer{
+      font-family: "p22-mackinac-pro", serif;
+      font-style: normal;
+      font-weight: 400;
+      text-align: center;
+      padding: 0px;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      color:rgb(166, 218, 248);
+      font-size: 20px;
+      line-height: 1.2;  
+      background: rgb(212,163,48);
+      background: radial-gradient(circle, rgba(212,163,48,1) 9%, rgba(245,210,190,1) 100%);
+      transition: 2s;
+  }*/
+/* ABOUT + INDEX Thanks for passing by  */
+.fontMedium {
+  font-family: "p22-mackinac-pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #2b4e5e;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.2; }
+
+main p {
+  /* WORK, Find beauty in simple things*/
+  font-family: "p22-mackinac-pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: #a6daf8;
+  font-size: 40px;
+  line-height: 1.2;
+  padding: 90px; }
+
+/* SHOP . INSERTAR LINK DE MERCADOLIBRE EN HTML*/
+main h1 {
+  font-family: "p22-mackinac-pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: #2b4e5e;
+  font-size: 25px;
+  line-height: 1.2;
+  padding: 90px; }
+
+.shop__saludo {
+  font-family: "p22-mackinac-pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: #c09a41;
+  font-size: 25px;
+  line-height: 1.2;
+  padding-top: 100px;
+  padding-left: 100px; }
+
+.lista__shop {
+  font-family: "p22-mackinac-pro", serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #c09a41;
+  text-align: center;
+  padding: 90px;
+  list-style: none; }
+
+.lista__shop--none {
+  text-decoration: none; }
+
+.info__blabla {
+  font-family: "p22-mackinac-pro", serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #c09a41;
+  padding: 90px; }
+
+.hello__info {
+  font-family: "p22-mackinac-pro", serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #c09a41;
+  padding: 90px; }
+
+/* ABOUT - FORMATO DE IMAGEN PERSONAL*/
+[grid-gutter="4"] {
+  margin: -1rem; }
+
+[grid-pad="2"] {
+  padding: 1rem; }
+
+[grid-row] {
+  align-items: flex-start;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap; }
+
+.imgcaro {
+  width: 20%;
+  float: left;
+  margin-top: 100px;
+  margin-left: 80px;
+  margin-right: 15px; }
+
+.mainPaboutRight {
+  font-family: "p22-mackinac-pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #2b4e5e;
+  font-size: 20px;
+  line-height: 1.2;
+  padding: 20px;
+  text-align: center; }
+
+.musicFormat {
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  margin-right: 100px;
+  margin-left: 210px; }
+
+/* CONTACT - "For comission, Para pedidos" */
+
+.carousel-inner img{
+  width: 100%;
+  height: 100%;
+}
+.carousel-caption{
+  position: absolute;
+  top: 20%;
+  transform: translateY(-20%);
+}
+.carousel-caption h1{
+  font-family: "p22-mackinac-pro", serif;
+  color: #fff;
+  text-shadow: 1px 1px 15px #2b4e5e;
+  font-size: 51px;
+}
+.carousel-caption h2{
+  font-family: "p22-mackinac-pro", serif;
+  color: #fff;
+  text-shadow: 1px 1px 15px #2b4e5e;
+}
+  
+.mainPcontact {
+  font-family: "p22-mackinac-pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #2b4e5e;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center; }
+
+form {
+  width: 600px;
+  padding: 16px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #f5d2be; }
+  form label {
+    font-family: "p22-mackinac-pro", serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #2b4e5e;
+    font-size: 18px;
+    width: 72px;
+    font-weight: bold;
+    display: inline-block;
+    box-sizing: border-box; }
+
+option {
+  font-family: "p22-mackinac-pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #2b4e5e;
+  font-size: 12px;
+  width: 72px;
+  font-weight: bold;
+  display: inline-block;
+  box-sizing: border-box; }
+
+form div {
+  font-family: "p22-mackinac-pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #2b4e5e;
+  font-size: 12px;
+  width: 72px;
+  font-weight: bold;
+  display: inline-block;
+  box-sizing: border-box; }
+
+form input {
+  font-family: "p22-mackinac-pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #2b4e5e;
+  font-size: 12px;
+  width: 72px;
+  font-weight: bold;
+  display: inline-block;
+  box-sizing: border-box;
+  height: 30px;
+  width: 300px; }
+
+form textarea {
+  font-family: "p22-mackinac-pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #2b4e5e;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 400px;
+  height: 100px;
+  margin-left: 0px;
+  margin-top: 20px; }
+
+.commentFormat {
+  margin-top: 0px; }
+
+.botonSubmit {
+  background-color: whitesmoke;
+  color: #2b4e5e; }
+  .botonSubmit .botonSubmit:hover {
+    background-color: #2b4e5e;
+    color: whitesmoke; }
+
+div h1 {
+  font-family: "p22-mackinac-pro", serif;
+  font-style: normal;
+  color: #2b4e5e;
+  font-size: 15px;
+  font-weight: bold;
+  display: inline-block;
+  width: 300px;
+  text-align: left; }
+
+
+@media (max-width: 992px) {
+  .social-bar {
+    font-size: 1.5em;
+    padding: 1.5rem;
+  }
+@media (max-width: 768px) {
+  .carousel-caption{
+    top: 15%;
+  }
+  .carousel-caption h1{
+    font-family: "p22-mackinac-pro", serif;
+    color: #fff;
+    text-shadow: 1px 1px 15px #2b4e5e;
+    font-size: 45px;
+  }
+  .carousel-caption h2{
+    font-family: "p22-mackinac-pro", serif;
+    color: #fff;
+    text-shadow: 1px 1px 15px #2b4e5e;
+    font-size: 20px;
+  }
+  .form{
+  width: 100px;
+  padding: 16px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #f5d2be; 
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-caption{
+    top: 10%;
+  }
+  .carousel-caption h1{
+    font-family: "p22-mackinac-pro", serif;
+    color: #fff;
+    text-shadow: 1px 1px 15px #2b4e5e;
+    font-size: 35px;
+  }
+  .carousel-caption h2{
+    font-family: "p22-mackinac-pro", serif;
+    color: #fff;
+    text-shadow: 1px 1px 15px #2b4e5e;
+    font-size: 15px;
+  }
+  .services {
+    margin: 90px auto;
+    text-align: center; 
+  }
+  .servicesP {
+    font-family: "p22-mackinac-pro", serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #2b4e5e;
+    font-size: 20px;
+    margin: 20px; 
+  }
+
+  H3:after {
+    content: '';
+    background: #a6daf8;
+    display: block;
+    width: 300px;
+    height: 5px;
+    margin: 10px auto; 
+  }
+  .servicesH {
+    font-family: "p22-mackinac-pro", serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #2b4e5e;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px; 
+  }
+  .icon {
+    font-size: 3px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80px;
+    border: 3px solid #a6daf8;
+    border-radius: 80%; 
+  }
+  .servicesRow {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 160px;
+    margin-bottom: 65px; 
+  }
+  .icon {
+    font-size: 3px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80px;
+    border: 3px solid #a6daf8;
+    border-radius: 80%; 
+  }
+  .icon .icon:hover {
+      background-color: #a6daf8;
+      color: #fff; 
+  }
+  .fa-desktop {
+    /* SERVICES - WEB DESIGN ICON */
+    color: #f5d2be;
+    font-size: 40px; 
+  }
+  .fa-pencil-alt {
+    color: #f5d2be;
+    font-size: 40px; 
+  }
+  .fa-book-open {
+    color: #f5d2be;
+    font-size: 40px; 
+  }
+  .col-md-3:hover {
+    display: flex;
+    box-shadow: 5px 5px 5px -5px #2b4e5e;
+    cursor: pointer; }
+}}

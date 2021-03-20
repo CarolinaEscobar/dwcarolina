@@ -1,0 +1,50 @@
+/* INDEX - FORMATO DE IMAGENES */
+#galeria .col-lg-4 {
+    padding: 20px;
+    padding-right: 50px;
+    padding-left: 50px; }
+      
+    #galeria .imgilus {
+                        width: 100%; 
+                        #galeria .imgilus:hover {
+                                                background: rgba 245, 210, 190, 0.6;
+                                                border: 10px solid #fff; 
+                                                }
+                        }
+    
+.col-lg-4 {
+position: relative;
+width: 100%; }
+
+.imgilus {
+display: block;
+width: 100%; }
+
+.imgOverlay {
+            position: absolute;
+            top: 3.1%;
+            left: 8.5%;
+            right: 30%;
+            bottom: 50%;
+            width: 82.8%;
+            height: 93.5%;
+            background: rgba 245, 210, 190, 0.9;
+            color: #fff;
+            font-family: "p22-mackinac-pro", serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            opacity: 0; 
+            .imgOverlay:hover {
+                                    opacity: 1; 
+            }
+}                                 
+    
+.imgTitle {
+font-size: 2em;
+margin-top: 0.25em; }
+
+.imgDescrip {
+font-size: 1.5em;
+margin-top: 0.25em; }
